@@ -1,0 +1,21 @@
+.partner {
+    &__content {
+        height: 293px;
+    }
+
+    &__title {
+        font-family: 'Recoleta';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 48px;
+        text-align: center;
+        color: #163A24;
+        padding-top: 114px;
+    }
+    &__charts{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 86px;
+    }
+}

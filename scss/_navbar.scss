@@ -1,0 +1,46 @@
+.navbar {
+    background-color: $tree;
+    padding: 20px 0;
+
+    .navbar__content {
+
+        height: 98px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        background-color: $tree;
+    }
+
+    .navbar__menu {
+        display: flex;
+        align-items: center;
+        gap: 24px;
+    }
+
+    .navbar__item {
+        font-family: 'Noto Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 22px;
+        text-align: right;
+        color: #FBFAF7;
+    }
+
+    .navbar__btn {
+        font-family: 'Noto Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 22px;
+        text-align: right;
+        color: #FBFAF7;
+        background: #198C36;
+        border-radius: 160px;
+        padding: 15px 25px;
+        cursor: pointer;
+        outline: 0;
+        border: 0;
+    }
+}

@@ -1,0 +1,36 @@
+.scenes {
+    &__content {
+        display: flex;
+        height: 427px;
+        justify-content: center;
+        align-items: center;
+        gap: 101px;
+    }
+
+    &__left {
+        width: 393px;
+        height: 227px;
+    }
+
+    &__title {
+        font-family: 'Recoleta';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 48px;
+        line-height: 54px;
+        color: #163A24;
+        padding-bottom: 27px;
+    }
+
+    &__text {
+        font-family: 'Noto Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 27px;
+        color: #163A24;
+        text-align: left;
+        width: 379px;
+        padding-bottom: 17px;
+    }
+}
